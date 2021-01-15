@@ -1,0 +1,398 @@
+/*--default css----*/
+body{
+	    background: linear-gradient(to bottom, #f1f1f1 43%, #c1c1c1 100%);
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li{
+	padding: 0;
+	margin: 0;
+}
+
+ a{
+	text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.btn{
+	text-decoration: none !important;
+}
+
+.btn a{
+	color: #FFF;
+}
+
+img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/*--------------Header Start--------------*/
+
+header.h-wraper {
+    background: #03A696;
+}
+
+
+.bgc{
+    background-color: #03a696;
+}
+
+
+a.navbar-brand img {
+    height: 130px;
+    width: 375px;
+    margin: -15px 0px -15px -115px;
+}
+
+
+.btn-outline-success {
+    background-color: #e1eae3 !important;
+    border-color: #f0f3f0 !important;
+}
+
+.btn-outline-success:hover{
+    background-color: #e21717 !important;
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #ecdc14e0 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #ecdc14e0 !important;
+}
+
+
+.navbar-light .navbar-toggler {
+    border-color: #FFF;
+}
+
+
+
+.h-top {
+    float: right;
+    padding: 10px 0px 10px 0px;
+}
+
+
+.h-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+.h-menu ul li{
+	display: inline;
+}
+
+
+.h-menu {
+    padding: 10px 0px 10px 6px;
+    background: #4104924d;
+    
+}
+
+.h-menu ul li a:hover {
+    color: #010517;
+    padding: 10px 0px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.h-menu ul li {
+    display: inline;
+    padding: 5px 0px 0px 40px;
+}
+
+.h-menu ul li a {
+    color: #FFF;
+}
+
+/*-------------Header End--------------*/
+
+
+.s-text {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+
+
+/*----------------menu-item Start--------------*/
+section.menu-item {
+    padding-top: 15px;
+}
+
+tbody tr td a{
+    text-align: center;
+}
+
+tbody tr th {
+    text-align: center;
+    color: #F5F5F5;
+}
+
+
+.td-menu tr td a.clr {
+    color: #f5f0f0;
+}
+
+.table-bordered td, .table-bordered th {
+    border: 1px solid #efefef;
+    background: #046f65fa;
+}
+
+
+.f-s {
+    font-size: 18px;
+    padding-right: 25px;
+}
+
+tr td a {
+    font-size: 16px;
+}
+
+.member-f {
+    background: #097268;
+}
+
+.card-body h5.title {
+    margin-top: -15px;
+    margin-bottom: 10px;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.input-group.m-p {
+    margin: 10px 0px 10px 0px;
+}
+
+button.btn.btn--pill.btn--green.colr {
+    border: 1px solid #FFF;
+    background: #FFF;
+}
+
+/*----------------menu-item End--------------*/
+
+
+/*----------------mcq-test Start--------------*/
+section.mcq-test {
+    padding-top: 50px;
+}
+
+.td-menu tr td a {
+    color: #f5f0f0;
+    font-weight: 700;
+}
+
+.member-f .td-menu tr td a {
+        color: #f9f1f1;
+}
+
+table.table.table-bordered.td-menu.p-m {
+    text-align: center;
+}
+
+
+.mcq-t .mcq-l .one {
+    border: 1px solid #FFF;
+    background: #087167;
+    width: 50%;
+    padding: 10px 17px;
+}
+
+.mcq-t .mcq-l .one a {
+    color:#FFF;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.mcq-t .mcq-l .two {
+    border: 1px solid #FFF;
+    background: #087167;
+    width: 50%;
+    padding: 9px 17px;
+}
+
+.mcq-t .mcq-l .two a {
+    color:#FFF;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+
+.mcq-t .mcq-r .three {
+    border: 1px solid #FFF;
+    background: #087167;
+    width: 50%;
+    padding: 33px 17px;
+    float: right;
+    margin-top: -92px;
+}
+
+.mcq-t .mcq-r .three a {
+    color:#FFF;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+
+/*----------------mcq-test End--------------*/
+
+
+/*----------------footer Start--------------*/
+
+
+.footer-t P {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 30px 0px 20px 0px;
+}
+
+/*----------------footer End--------------*/
+
+
+/*--------------------------------HSC page Start---------------------------------------*/
+
+tbody tr th p {
+    color: #F5F5F5;
+    text-align: center;
+}
+
+
+tbody tr td {
+    color: #F5F5F5;
+}
+
+section.p {
+    padding-top: 70px;
+}
+
+.col-md-12.pad {
+    text-align: center;
+    padding: 0px 0px 50px 0px;
+}
+
+td.a-link-b {
+    text-align: center;
+}
+
+.a-link-b a {
+    border: 1px solid;
+    padding: 2px 15px;
+    background: red;
+    color: #FFF;
+}
+
+
+
+
+/*--------------------------------HSC page End---------------------------------------*/
+
+
+.contact{
+background-image:url('../images/map/bd_map.png');
+width: 100%;
+height: auto;
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+margin-top: 40px;
+
+}
+
+
+.over-lp {
+
+    background-color: #0c0c0ca1;
+}
+
+
+.c-content h2 {
+    color: #FFF;
+    text-align: center;
+    font-weight: 500;
+    padding: 50px 0px 10px 0px;
+}
+
+
+.c-content p {
+    color: #FFF;
+    text-align: center;
+    padding: 0px 0px 50px 0px;
+}
+
+
+.box-w .box h5 {
+    color: #FFF;
+}
+
+
+.box-w .box p {
+    color: #FFF;
+}
+
+.box-w .box.padd {
+    padding-bottom: 120px;
+}
+
+.box-w {
+    padding-top: 30px;
+}
+
+.c-form {
+    background: #FFF;
+    padding: 50px;
+}
+
+.input-box textarea {
+    width: 100%;
+}
+
+.c-form .input-box input {
+    width: 100%;
+    padding: 5px 0px;
+    margin: 10px 0px;
+    font-size: 16px;
+    outline: none;
+}
+
+.input-box.pad-t {
+    padding-top: 20px;
+}
+--
+With best regards,
+.............................
+Sudipta Mohajan
+Mobile: +8801836857686
+E-mail: dipomohajan2@gmail.com

@@ -1,0 +1,195 @@
+
+
+/*========= Large devices (desktops, less than 1200px)==========*/
+@media (max-width: 1199.98px) { 
+
+    .h-menu {
+        padding: 10px 0px 10px 0px;
+    }
+    .h-menu ul li a {
+        color: #FFF;
+        font-size: 14px;
+    }
+    tr td a {
+        font-size: 16px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 17px !important;
+        font-weight: 600 !important;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.3rem;
+        padding-left: 0.3rem;
+    }
+
+}
+
+
+/*============== Medium devices (tablets, less than 992px)========*/
+@media (max-width: 991.98px) { 
+	.h-menu ul li {
+    padding: 5px 0px 0px 18px;
+	}
+	
+	.h-menu ul li a {
+    color: #FFF;
+    font-size: 14px;
+	}
+    
+    tr td a {
+        font-size: 13px;
+    }
+    .f-s {
+        padding-right: 5px;
+        font-size: 17px;
+    }
+    button, input, optgroup, select, textarea {
+    width: 100% !important;
+    }
+    
+    .card-body h5.title {
+    font-size: 18px;
+    }
+    button.navbar-toggler.m-p-w {
+    margin:-100px 40px 0px 560px;
+    }
+
+}
+
+
+
+
+
+/*============== devices (landscape phones, less than 768px)=============*/
+@media (max-width: 767.98px) { 
+    tr td a {
+        font-size: 14px;
+        padding-left: 165px;
+    }
+    
+    .mcq-t .mcq-r .three {
+        padding: 45px 17px;
+        margin-top: -117px;
+    }
+
+    .mcq-t .mcq-r .three a {
+        font-size: 14px;
+    }
+    
+    button.navbar-toggler.m-p-w {
+    margin: -100px 20px 0px 400px;
+    }   
+
+
+
+ }
+
+
+/*==========Extra small devices (portrait phones, less than 576px)==========*/
+@media (max-width: 575.98px) { 
+
+    tr td a {
+        font-size: 13px;
+        padding-left: 150px;
+    }
+    
+    .mcq-t .mcq-r .three {
+        margin-top: -142px;
+        padding: 58px 17px;
+    }
+    
+    .mcq-t .mcq-r .three a {
+        font-size: 14px;
+    }
+
+    .mcq-t .mcq-l .one a {
+        font-size: 14px;
+    }
+
+    .mcq-t .mcq-l .two a {
+        font-size: 14px;
+    }
+
+    .mcq-t .mcq-l .one {
+        padding: 22px 17px;
+    }
+
+    .mcq-t .mcq-l .two {
+        padding: 22px 17px;
+    }
+    
+    button.navbar-toggler.m-p-w {
+    margin: -100px 58px 0px 400px;
+    } 
+ }
+
+
+ @media (max-width: 541.98px){
+
+    .mcq-t .mcq-r .three {
+        margin-top: -164px;
+        padding: 69px 17px;
+    }
+    tr td a {
+        font-size: 13px;
+        padding-left: 44px;
+    }
+    
+    button.navbar-toggler.m-p-w {
+        margin-top: -100px;
+        margin-left: 340px;
+        margin-right: 40px;
+    }
+
+ } 
+
+
+ @media (max-width: 413.98px){
+
+    .mcq-t .mcq-r .three {
+        margin-top: -187px;
+        padding: 81px 17px;
+    }
+    tr td a {
+        font-size: 13px;
+        padding-left: 44px;
+    }
+
+    .mcq-t .mcq-r .three {
+        margin-top: -188px;
+        padding: 69px 17px;
+    }
+
+   button.navbar-toggler.m-p-w {
+        margin: -100px 30px 0px 258px;
+    }
+ 
+   
+
+}
+
+@media (max-width: 360.98px){
+    
+    button.navbar-toggler.m-p-w {
+    margin: -100px 0px 0px 225px;
+}
+}
+
+
+
+
+ @media (max-width: 320.98px){
+
+    tr td a {
+        font-size: 13px;
+        padding-left: 44px;
+    }
+    
+ }
+
+
+   
+
+
